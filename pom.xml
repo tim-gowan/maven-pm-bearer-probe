@@ -7,7 +7,7 @@
   <artifactId>maven-pm-bearer-probe</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <name>maven-pm-bearer-probe</name>
-  <description>Probe repo for Endor PackageManager Maven Bearer (token_auth) wiring via Artifactory+PFW.</description>
+  <description>Probe repo for Endor PackageManager Maven Bearer (token_auth) wiring via Artifactory.</description>
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
@@ -15,9 +15,9 @@
   </properties>
   <dependencies>
     <dependency>
-      <groupId>commons-io</groupId>
-      <artifactId>commons-io</artifactId>
-      <version>2.15.1</version>
+      <groupId>com.endorlabs.probe</groupId>
+      <artifactId>pm-bearer-canary</artifactId>
+      <version>0.0.1</version>
     </dependency>
   </dependencies>
 </project>
