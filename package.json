@@ -1,0 +1,9 @@
+{
+  "name": "maven-pm-bearer-probe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multi-ecosystem PackageManager token probe (npm auth_token)",
+  "dependencies": {
+    "@endorlabs-probe/pm-token-canary": "0.0.1"
+  }
+}
