@@ -6,6 +6,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="EndorLabs.PmTokenCanary" Version="0.0.1" />
+    <PackageReference Include="EndorLabs.PmTokenCanary" Version="0.0.2" />
   </ItemGroup>
 </Project>
